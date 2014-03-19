@@ -1,0 +1,99 @@
+\hypertarget{class_visual_odometry}{\section{Visual\+Odometry Class Reference}
+\label{class_visual_odometry}\index{Visual\+Odometry@{Visual\+Odometry}}
+}
+Inheritance diagram for Visual\+Odometry\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_visual_odometry}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_visual_odometry_1_1bucketing}{bucketing}
+\item 
+struct \hyperlink{struct_visual_odometry_1_1calibration}{calibration}
+\item 
+struct \hyperlink{struct_visual_odometry_1_1parameters}{parameters}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_visual_odometry_aca4e1f1cc799f6392303ab7fca26f81e}{{\bfseries Visual\+Odometry} (\hyperlink{struct_visual_odometry_1_1parameters}{parameters} param)}\label{class_visual_odometry_aca4e1f1cc799f6392303ab7fca26f81e}
+
+\item 
+\hypertarget{class_visual_odometry_af386ca261ddfc82c1da66cc92fb8554c}{bool {\bfseries process} (std\+::vector$<$ \hyperlink{struct_matcher_1_1p__match}{Matcher\+::p\+\_\+match} $>$ p\+\_\+matched\+\_\+)}\label{class_visual_odometry_af386ca261ddfc82c1da66cc92fb8554c}
+
+\item 
+\hypertarget{class_visual_odometry_a0e25df50775b1d6ccf65cfb582fcec6c}{\hyperlink{class_matrix}{Matrix} {\bfseries get\+Motion} ()}\label{class_visual_odometry_a0e25df50775b1d6ccf65cfb582fcec6c}
+
+\item 
+\hypertarget{class_visual_odometry_a3188ba4cd672fe3af210485b2234dfda}{std\+::vector$<$ \hyperlink{struct_matcher_1_1p__match}{Matcher\+::p\+\_\+match} $>$ {\bfseries get\+Matches} ()}\label{class_visual_odometry_a3188ba4cd672fe3af210485b2234dfda}
+
+\item 
+\hypertarget{class_visual_odometry_a5cdf9079cd4f96e782c15c97893af186}{int32\+\_\+t {\bfseries get\+Number\+Of\+Matches} ()}\label{class_visual_odometry_a5cdf9079cd4f96e782c15c97893af186}
+
+\item 
+\hypertarget{class_visual_odometry_a59dd3aec4cd992069eee7903621cef6a}{int32\+\_\+t {\bfseries get\+Number\+Of\+Inliers} ()}\label{class_visual_odometry_a59dd3aec4cd992069eee7903621cef6a}
+
+\item 
+\hypertarget{class_visual_odometry_a7ffc656cdb1d695a5981b44806749bde}{std\+::vector$<$ int32\+\_\+t $>$ {\bfseries get\+Inlier\+Indices} ()}\label{class_visual_odometry_a7ffc656cdb1d695a5981b44806749bde}
+
+\item 
+\hypertarget{class_visual_odometry_a3968f4e85ee9b06986a37a9430f899ab}{float {\bfseries get\+Gain} (std\+::vector$<$ int32\+\_\+t $>$ inliers\+\_\+)}\label{class_visual_odometry_a3968f4e85ee9b06986a37a9430f899ab}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_visual_odometry_a9caa39c2a95ede9ee423a60c49781324}{bool {\bfseries update\+Motion} ()}\label{class_visual_odometry_a9caa39c2a95ede9ee423a60c49781324}
+
+\item 
+\hypertarget{class_visual_odometry_af98bab368513d4c69a6e49f5f3220dc8}{\hyperlink{class_matrix}{Matrix} {\bfseries transformation\+Vector\+To\+Matrix} (std\+::vector$<$ double $>$ tr)}\label{class_visual_odometry_af98bab368513d4c69a6e49f5f3220dc8}
+
+\item 
+\hypertarget{class_visual_odometry_a744ce1154259dcf50a4632c1da93310b}{virtual std\+::vector$<$ double $>$ {\bfseries estimate\+Motion} (std\+::vector$<$ \hyperlink{struct_matcher_1_1p__match}{Matcher\+::p\+\_\+match} $>$ p\+\_\+matched)=0}\label{class_visual_odometry_a744ce1154259dcf50a4632c1da93310b}
+
+\item 
+\hypertarget{class_visual_odometry_a2d416460beaa8ef87cb5d9ce45ce25b2}{std\+::vector$<$ int32\+\_\+t $>$ {\bfseries get\+Random\+Sample} (int32\+\_\+t N, int32\+\_\+t num)}\label{class_visual_odometry_a2d416460beaa8ef87cb5d9ce45ce25b2}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_visual_odometry_ae4d1f67aa13d39d4e2d79b66c24d40cd}{\hyperlink{class_matrix}{Matrix} {\bfseries Tr\+\_\+delta}}\label{class_visual_odometry_ae4d1f67aa13d39d4e2d79b66c24d40cd}
+
+\item 
+\hypertarget{class_visual_odometry_a7adb170f1f42afc4af02967fa59d5bd4}{bool {\bfseries Tr\+\_\+valid}}\label{class_visual_odometry_a7adb170f1f42afc4af02967fa59d5bd4}
+
+\item 
+\hypertarget{class_visual_odometry_acad7f354f64ac9c31ffdca21ad4a81ea}{\hyperlink{class_matcher}{Matcher} $\ast$ {\bfseries matcher}}\label{class_visual_odometry_acad7f354f64ac9c31ffdca21ad4a81ea}
+
+\item 
+\hypertarget{class_visual_odometry_a90a6b44dea99f73af1becbec27f574dc}{std\+::vector$<$ int32\+\_\+t $>$ {\bfseries inliers}}\label{class_visual_odometry_a90a6b44dea99f73af1becbec27f574dc}
+
+\item 
+\hypertarget{class_visual_odometry_a460b88e3c6413862891cdac83c5f013d}{double $\ast$ {\bfseries J}}\label{class_visual_odometry_a460b88e3c6413862891cdac83c5f013d}
+
+\item 
+\hypertarget{class_visual_odometry_a48bbbc977f2de8bb647842a9a14fed34}{double $\ast$ {\bfseries p\+\_\+observe}}\label{class_visual_odometry_a48bbbc977f2de8bb647842a9a14fed34}
+
+\item 
+\hypertarget{class_visual_odometry_a58bee4df50653cd9b7de41f7c0b53280}{double $\ast$ {\bfseries p\+\_\+predict}}\label{class_visual_odometry_a58bee4df50653cd9b7de41f7c0b53280}
+
+\item 
+\hypertarget{class_visual_odometry_a80f624e6d5e587d972c3e69781321ed0}{std\+::vector$<$ \hyperlink{struct_matcher_1_1p__match}{Matcher\+::p\+\_\+match} $>$ {\bfseries p\+\_\+matched}}\label{class_visual_odometry_a80f624e6d5e587d972c3e69781321ed0}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_visual_odometry_a46e1f3711d18286d269160ee44217306}{std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&os, \hyperlink{class_visual_odometry}{Visual\+Odometry} \&viso)}\label{class_visual_odometry_a46e1f3711d18286d269160ee44217306}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+libviso2/viso.\+h\item 
+libviso2/viso.\+cpp\end{DoxyCompactItemize}

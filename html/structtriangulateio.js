@@ -1,0 +1,26 @@
+var structtriangulateio =
+[
+    [ "edgelist", "structtriangulateio.html#af8374f90431a318b694bb5424814f111", null ],
+    [ "edgemarkerlist", "structtriangulateio.html#a3f9be953734099d409f54736c3cd72af", null ],
+    [ "holelist", "structtriangulateio.html#a825d0bf2619c98fea6aa9f456dc53077", null ],
+    [ "neighborlist", "structtriangulateio.html#a266c62c74f443a4a50c986ccf97e74c7", null ],
+    [ "normlist", "structtriangulateio.html#ad47e80dd7941e0693335c9a512746b38", null ],
+    [ "numberofcorners", "structtriangulateio.html#aaeeda011ca1f51696fcc5a460b81c18d", null ],
+    [ "numberofedges", "structtriangulateio.html#ac8c1b394861ed4a5c021a2d08a36a2a9", null ],
+    [ "numberofholes", "structtriangulateio.html#a91deb1af3dd2ef937f1b6b7e38261e99", null ],
+    [ "numberofpointattributes", "structtriangulateio.html#aaac6a34f7d7bf1d1476ce7672f15d976", null ],
+    [ "numberofpoints", "structtriangulateio.html#a29be46ad3fc4f8c84235e420f7e606ec", null ],
+    [ "numberofregions", "structtriangulateio.html#ac1082ccae35526598ba0977068da9278", null ],
+    [ "numberofsegments", "structtriangulateio.html#a417da9cc4711390560c6af7750d13d95", null ],
+    [ "numberoftriangleattributes", "structtriangulateio.html#a272ba3b8730997b1bd6c367328b1abf8", null ],
+    [ "numberoftriangles", "structtriangulateio.html#a6455c22dba63bdb0584d44fdf35a321f", null ],
+    [ "pointattributelist", "structtriangulateio.html#ae2d48c6a745b2fb93430beb287373469", null ],
+    [ "pointlist", "structtriangulateio.html#a82a64e7bbed8533faa445851f3d2e915", null ],
+    [ "pointmarkerlist", "structtriangulateio.html#acb2a9792412a2c3051fb869e88cfa602", null ],
+    [ "regionlist", "structtriangulateio.html#ac0dde436bb3933efdf64a3980e4917f1", null ],
+    [ "segmentlist", "structtriangulateio.html#ad45fec0a70058760450e09b949a3d1c0", null ],
+    [ "segmentmarkerlist", "structtriangulateio.html#a8d88affa03ad1156b1d087448166bf04", null ],
+    [ "trianglearealist", "structtriangulateio.html#ad05a9d4c4941dbdb8193cfedb289963a", null ],
+    [ "triangleattributelist", "structtriangulateio.html#a308a628907c92aff9d23da64895cf786", null ],
+    [ "trianglelist", "structtriangulateio.html#a7d0f1c11cd6dc624ae61dbbbcc68b8cb", null ]
+];
